@@ -1,0 +1,91 @@
+body {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 110px;
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.agiborder {
+    border: dashed black 5px;
+    padding: 60px;
+}
+
+h3 {
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "Helvetica Neue";
+    font-size: 40px;
+}
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0em;
+    -webkit-padding-start: 0em;
+    -webkit-padding-end: 0em;
+    -webkit-padding-after: 0em;
+    border: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-width: -webkit-min-content;
+    padding: 30px;
+}
+
+.ghost-input {
+    border: 5px solid black !important;
+    border-radius: 30px;
+}
+.ghost-input, p {
+    display: block;
+    font-weight:300;
+    width: 100%;
+    font-size: 25px;
+    border:3px;
+    outline: black;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #4b545f;
+    background: white;
+    font-family: Open Sans,Verdana;
+    padding: 10px 15px;
+    margin: 30px 0px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.ghost-input:focus {
+    border-bottom:1px solid #515151;
+}
+.ghost-button {
+    background-color: limegreen;
+    border:3px solid black;
+    border-radius: 25px ;
+    padding:10px 30px;
+    width: 100%;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.ghost-button:hover {
+    border:3px solid #515151;
+    background-color: white;
+}
+p {
+    color: #E64A19;
+}
